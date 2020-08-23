@@ -1,5 +1,13 @@
-my_group = ["person_1", "person_2", "person_3"]
+my_group = Array.new
+person_1 = {name: "Johan", age: 26, gender: "man"}
+person_2 = {name:"Jacob", age: 31, gender: "man"}
+person_3 = {name:"Bodil", age: 68, gender: "woman"}
 
-person_1 = {name:"Johan", gender: "male", age:33}
-person_2 = {name: "Helena", gender: "female", age:26}
-person_3 = {name: "Eric", gender: "male", age:30}
+my_group << person_1
+my_group << person_2
+my_group << person_3
+
+puts "#{person_1[:name]} is a #{person_1[:gender]} with the age of #{person_1[:age]}"
+puts "#{person_2[:name]} is a #{person_2[:gender]} with the age of #{person_2[:age]}"
+puts "#{person_3[:name]} is a #{person_3[:gender]} with the age of #{person_3[:age]}"
+

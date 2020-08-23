@@ -1,0 +1,1 @@
+/*the code says that there is an error preventing the code from running. It then suggests that there is an error with the syntax and that the error is that there is ) when it instead should be }./*
